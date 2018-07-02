@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: b8e3d2e6ec82fde42ad697176929f246
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Timer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_11
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_13
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_14
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_15
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3840
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_22
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_23
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_24
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_25
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_26
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_27
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_28
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_29
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_30
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_31
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3584
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_38
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_39
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_40
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_41
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_42
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_43
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_44
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_45
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_46
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_47
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3328
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_52
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_53
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3072
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_54
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3073
+        width: 511
+        height: 255
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_55
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 3074
+        width: 514
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_56
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1986
+        width: 1921
+        height: 1081
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_57
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 3074
+        width: 255
+        height: 253
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_58
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1986
+        width: 1918
+        height: 1081
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_59
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 39
+        width: 1920
+        height: 1923
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_60
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 891
+        width: 1915
+        height: 1077
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_61
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 507
+        width: 495
+        height: 317
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_62
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 520
+        width: 750
+        height: 317
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_63
+      rect:
+        serializedVersion: 2
+        x: 3411
+        y: 510
+        width: 608
+        height: 337
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_64
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 117
+        width: 474
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_65
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 58
+        width: 724
+        height: 423
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_66
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 102
+        width: 760
+        height: 344
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Timer_67
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 3074
+        width: 512
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

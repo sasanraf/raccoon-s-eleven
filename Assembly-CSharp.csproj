@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5F8529C0-27F3-EACB-DF50-C37705C2C395}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\scripts\Level_01\excellentClickEnd.cs" />
+     <Compile Include="Assets\scripts\Level_01\handMonkey_Level_01.cs" />
+     <Compile Include="Assets\scripts\Level_01\handZebra_Level_01.cs" />
+     <Compile Include="Assets\scripts\Level_01\monkey_Level_01.cs" />
+     <Compile Include="Assets\scripts\Level_01\timerMeercatMoney_level_01.cs" />
+     <Compile Include="Assets\scripts\Level_01\timerMonkey_Level_01.cs" />
+     <Compile Include="Assets\scripts\Level_01\timerZebra_Level_01.cs" />
+     <Compile Include="Assets\scripts\Level_01\zebra_Level_01.cs" />
+     <Compile Include="Assets\scripts\Level_02\gameScore_Level_02.cs" />
+     <Compile Include="Assets\scripts\Level_02\gameTimer_Level_02.cs" />
+     <Compile Include="Assets\scripts\Level_02\hintLevel02.cs" />
+     <Compile Include="Assets\scripts\Level_02\monkey_Level_02.cs" />
+     <Compile Include="Assets\scripts\Level_02\nextLevel_02to03.cs" />
+     <Compile Include="Assets\scripts\Level_02\racoonHintLev02.cs" />
+     <Compile Include="Assets\scripts\Level_02\timerMonkey_Level_02.cs" />
+     <Compile Include="Assets\scripts\Level_02\timerZebra_Level_02.cs" />
+     <Compile Include="Assets\scripts\Level_02\zebra_Level_02.cs" />
+     <Compile Include="Assets\scripts\Level_03\gameScore_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_03\gameTimer_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_03\level03_TeamHiring\bottunDone_TeamSelLev03.cs" />
+     <Compile Include="Assets\scripts\Level_03\level03_TeamHiring\hintTeamHiringLevel03.cs" />
+     <Compile Include="Assets\scripts\Level_03\level03_TeamHiring\monkey_chaPickLev03.cs" />
+     <Compile Include="Assets\scripts\Level_03\level03_TeamHiring\racoonHintLev3.cs" />
+     <Compile Include="Assets\scripts\Level_03\level03_TeamHiring\rhino_chaPickLev03.cs" />
+     <Compile Include="Assets\scripts\Level_03\level03_TeamHiring\zebra_chaPickLev03.cs" />
+     <Compile Include="Assets\scripts\Level_03\monkey_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_03\nextLevel_03to04.cs" />
+     <Compile Include="Assets\scripts\Level_03\racoonHintLev03.cs" />
+     <Compile Include="Assets\scripts\Level_03\refreshGame_level03.cs" />
+     <Compile Include="Assets\scripts\Level_03\rhino_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_03\safeBoxExplosion_level03.cs" />
+     <Compile Include="Assets\scripts\Level_03\timerMonkey_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_03\timerRhino_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_03\timerZebra_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_03\zebra_Level_03.cs" />
+     <Compile Include="Assets\scripts\Level_04\directionButtonToZoon01_Lev04.cs" />
+     <Compile Include="Assets\scripts\Level_04\directionButtonToZoon02_Lev04.cs" />
+     <Compile Include="Assets\scripts\Level_04\gameScore_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_04\gameTimer_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_04\level04_TeamHiring\bottunDone_TeamSelLev04.cs" />
+     <Compile Include="Assets\scripts\Level_04\level04_TeamHiring\monkey_chaPickLev04.cs" />
+     <Compile Include="Assets\scripts\Level_04\level04_TeamHiring\rhino_chaPickLev04.cs" />
+     <Compile Include="Assets\scripts\Level_04\level04_TeamHiring\zebra_chaPickLev04.cs" />
+     <Compile Include="Assets\scripts\Level_04\monkey_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_04\nextLevel_04to05.cs" />
+     <Compile Include="Assets\scripts\Level_04\refreshGame_level04.cs" />
+     <Compile Include="Assets\scripts\Level_04\rhino_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_04\safeBoxExplosion_level04.cs" />
+     <Compile Include="Assets\scripts\Level_04\timerMonkey_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_04\timerRhino_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_04\timerZebra_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_04\zebra_Level_04.cs" />
+     <Compile Include="Assets\scripts\Level_05\directionButtonToZoon01_Lev05.cs" />
+     <Compile Include="Assets\scripts\Level_05\directionButtonToZoon02_Lev05.cs" />
+     <Compile Include="Assets\scripts\Level_05\gameScore_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_05\gameTimer_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_05\level05_TeamHiring\bottunDone_TeamSelLev05.cs" />
+     <Compile Include="Assets\scripts\Level_05\level05_TeamHiring\monkey_chaPickLev05.cs" />
+     <Compile Include="Assets\scripts\Level_05\level05_TeamHiring\rhino_chaPickLev05.cs" />
+     <Compile Include="Assets\scripts\Level_05\level05_TeamHiring\zebra_chaPickLev05.cs" />
+     <Compile Include="Assets\scripts\Level_05\monkey_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_05\nextLevel_05to06.cs" />
+     <Compile Include="Assets\scripts\Level_05\refreshGame_level05.cs" />
+     <Compile Include="Assets\scripts\Level_05\rhino_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_05\safeBoxExplosion_level05.cs" />
+     <Compile Include="Assets\scripts\Level_05\timerMonkey_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_05\timerRhino_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_05\timerZebra_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_05\zebra_Level_05.cs" />
+     <Compile Include="Assets\scripts\Level_06\directionButtonToZoon01_Lev06.cs" />
+     <Compile Include="Assets\scripts\Level_06\directionButtonToZoon02_Lev06.cs" />
+     <Compile Include="Assets\scripts\Level_06\gameScore_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_06\gameTimer_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_06\level06_TeamHiring\bottunDone_TeamSelLev06.cs" />
+     <Compile Include="Assets\scripts\Level_06\level06_TeamHiring\monkey_chaPickLev06.cs" />
+     <Compile Include="Assets\scripts\Level_06\level06_TeamHiring\rhino_chaPickLev06.cs" />
+     <Compile Include="Assets\scripts\Level_06\level06_TeamHiring\zebra_chaPickLev06.cs" />
+     <Compile Include="Assets\scripts\Level_06\monkey_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_06\nextLevel_06to07.cs" />
+     <Compile Include="Assets\scripts\Level_06\refreshGame_level06.cs" />
+     <Compile Include="Assets\scripts\Level_06\rhino_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_06\safeBoxExplosion02_level06.cs" />
+     <Compile Include="Assets\scripts\Level_06\safeBoxExplosion_level06.cs" />
+     <Compile Include="Assets\scripts\Level_06\timerMonkey_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_06\timerRhino_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_06\timerZebra_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_06\zebra_Level_06.cs" />
+     <Compile Include="Assets\scripts\Level_07\Lev07_preview\directionBtnToZoon01_Lev07_prw.cs" />
+     <Compile Include="Assets\scripts\Level_07\Lev07_preview\directionBtnToZoon02_Lev07_prw.cs" />
+     <Compile Include="Assets\scripts\Level_07\Lev07_preview\gameTimer_Level_07_prw.cs" />
+     <Compile Include="Assets\scripts\Level_07\Lev07_preview\hintPreviewLevel07.cs" />
+     <Compile Include="Assets\scripts\Level_07\Lev07_preview\showMoney_Level_07_prw.cs" />
+     <Compile Include="Assets\scripts\Level_07\Level07_TeamHiring\bottunDone_TeamSelLev07.cs" />
+     <Compile Include="Assets\scripts\Level_07\Level07_TeamHiring\gorilla_chaPickLev07.cs" />
+     <Compile Include="Assets\scripts\Level_07\Level07_TeamHiring\hintTeamHiringLevel07.cs" />
+     <Compile Include="Assets\scripts\Level_07\Level07_TeamHiring\monkey_chaPickLev07.cs" />
+     <Compile Include="Assets\scripts\Level_07\Level07_TeamHiring\racoonHintLev7.cs" />
+     <Compile Include="Assets\scripts\Level_07\Level07_TeamHiring\rhino_chaPickLev07.cs" />
+     <Compile Include="Assets\scripts\Level_07\Level07_TeamHiring\zebra_chaPickLev07.cs" />
+     <Compile Include="Assets\scripts\Level_07\directionButtonToZoon01_Lev07.cs" />
+     <Compile Include="Assets\scripts\Level_07\directionButtonToZoon02_Lev07.cs" />
+     <Compile Include="Assets\scripts\Level_07\dog_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\exitPreview_level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\gameScore_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\gameTimer_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\gorilla_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\monkey_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\nextLevel_07to08.cs" />
+     <Compile Include="Assets\scripts\Level_07\refreshGame_level07.cs" />
+     <Compile Include="Assets\scripts\Level_07\rhino_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\safeBoxExplosion02_level07.cs" />
+     <Compile Include="Assets\scripts\Level_07\safeBoxExplosion_level07.cs" />
+     <Compile Include="Assets\scripts\Level_07\timerDog_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\timerMonkey_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\timerRhino_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\timerZebra_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_07\zebra_Level_07.cs" />
+     <Compile Include="Assets\scripts\Level_08\Lev08_preview\directionBtnToZoon01_Lev08_prw.cs" />
+     <Compile Include="Assets\scripts\Level_08\Lev08_preview\directionBtnToZoon02_Lev08_prw.cs" />
+     <Compile Include="Assets\scripts\Level_08\Lev08_preview\gameTimer_Level_08_prw.cs" />
+     <Compile Include="Assets\scripts\Level_08\Lev08_preview\showMoney_Level_08_prw.cs" />
+     <Compile Include="Assets\scripts\Level_08\Level08_TeamHiring\bottunDone_TeamSelLev08.cs" />
+     <Compile Include="Assets\scripts\Level_08\Level08_TeamHiring\gorilla_chaPickLev08.cs" />
+     <Compile Include="Assets\scripts\Level_08\Level08_TeamHiring\monkey_chaPickLev08.cs" />
+     <Compile Include="Assets\scripts\Level_08\Level08_TeamHiring\rhino_chaPickLev08.cs" />
+     <Compile Include="Assets\scripts\Level_08\Level08_TeamHiring\zebra_chaPickLev08.cs" />
+     <Compile Include="Assets\scripts\Level_08\directionButtonToZoon01_Lev08.cs" />
+     <Compile Include="Assets\scripts\Level_08\directionButtonToZoon02_Lev08.cs" />
+     <Compile Include="Assets\scripts\Level_08\dog_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\exitPreview_level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\gameScore_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\gameTimer_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\gorilla_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\monkey_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\nextLevel_08to09.cs" />
+     <Compile Include="Assets\scripts\Level_08\pigEvil_level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\refreshGame_level08.cs" />
+     <Compile Include="Assets\scripts\Level_08\rhino_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\safeBoxExplosion02_level08.cs" />
+     <Compile Include="Assets\scripts\Level_08\safeBoxExplosion_level08.cs" />
+     <Compile Include="Assets\scripts\Level_08\timerDog_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\timerMonkey_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\timerRhino_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\timerZebra_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_08\zebra_Level_08.cs" />
+     <Compile Include="Assets\scripts\Level_09\Lev09_preview\directionBtnToZoon01_Lev09_prw.cs" />
+     <Compile Include="Assets\scripts\Level_09\Lev09_preview\directionBtnToZoon02_Lev09_prw.cs" />
+     <Compile Include="Assets\scripts\Level_09\Lev09_preview\gameTimer_Level_09_prw.cs" />
+     <Compile Include="Assets\scripts\Level_09\Lev09_preview\showMoney_Level_09_prw.cs" />
+     <Compile Include="Assets\scripts\Level_09\Level09_TeamHiring\bottunDone_TeamSelLev09.cs" />
+     <Compile Include="Assets\scripts\Level_09\Level09_TeamHiring\gorilla_chaPickLev09.cs" />
+     <Compile Include="Assets\scripts\Level_09\Level09_TeamHiring\monkey_chaPickLev09.cs" />
+     <Compile Include="Assets\scripts\Level_09\Level09_TeamHiring\rhino_chaPickLev09.cs" />
+     <Compile Include="Assets\scripts\Level_09\Level09_TeamHiring\zebra_chaPickLev09.cs" />
+     <Compile Include="Assets\scripts\Level_09\directionButtonToZoon01_Lev09.cs" />
+     <Compile Include="Assets\scripts\Level_09\directionButtonToZoon02_Lev09.cs" />
+     <Compile Include="Assets\scripts\Level_09\dog_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\exitPreview_level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\gameScore_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\gameTimer_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\gorilla_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\monkey_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\nextLevel_09to10.cs" />
+     <Compile Include="Assets\scripts\Level_09\pigEvil_level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\refreshGame_level09.cs" />
+     <Compile Include="Assets\scripts\Level_09\rhino_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\safeBoxExplosion02_level09.cs" />
+     <Compile Include="Assets\scripts\Level_09\safeBoxExplosion03_level09.cs" />
+     <Compile Include="Assets\scripts\Level_09\safeBoxExplosion_level09.cs" />
+     <Compile Include="Assets\scripts\Level_09\timerDog_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\timerMonkey_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\timerRhino_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\timerZebra_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_09\zebra_Level_09.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon12_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon13_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon21_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon24_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon31_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon34_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon42_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\directionBtnZoon43_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\gameTimer_Level_10_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Lev10_preview\showMoney_Level_10_prw.cs" />
+     <Compile Include="Assets\scripts\Level_10\Level10_TeamHiring\bottunDone_TeamSelLev10.cs" />
+     <Compile Include="Assets\scripts\Level_10\Level10_TeamHiring\gorilla_chaPickLev10.cs" />
+     <Compile Include="Assets\scripts\Level_10\Level10_TeamHiring\monkey_chaPickLev10.cs" />
+     <Compile Include="Assets\scripts\Level_10\Level10_TeamHiring\rhino_chaPickLev10.cs" />
+     <Compile Include="Assets\scripts\Level_10\Level10_TeamHiring\zebra_chaPickLev10.cs" />
+     <Compile Include="Assets\scripts\Level_10\cameraZoonChange_level10.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon12.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon13.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon21.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon24.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon31.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon34.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon42.cs" />
+     <Compile Include="Assets\scripts\Level_10\directionBtnZoon43.cs" />
+     <Compile Include="Assets\scripts\Level_10\dog2_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\dog_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\exitPreview_level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\gameScore_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\gameTimer_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\gorilla_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\monkey_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\nextLevel_10FINAL.cs" />
+     <Compile Include="Assets\scripts\Level_10\pigEvil_level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\refreshGame_level10.cs" />
+     <Compile Include="Assets\scripts\Level_10\rhino_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\safeBoxExplosion02_level10.cs" />
+     <Compile Include="Assets\scripts\Level_10\safeBoxExplosion03_level10.cs" />
+     <Compile Include="Assets\scripts\Level_10\safeBoxExplosion_level10.cs" />
+     <Compile Include="Assets\scripts\Level_10\timerDog02_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\timerDog_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\timerMonkey_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\timerRhino_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\timerZebra_Level_10.cs" />
+     <Compile Include="Assets\scripts\Level_10\zebra_Level_10.cs" />
+     <Compile Include="Assets\scripts\RESET.cs" />
+     <Compile Include="Assets\scripts\ScreenToPoint.cs" />
+     <Compile Include="Assets\scripts\cheatIt.cs" />
+     <Compile Include="Assets\scripts\publicScripts\CCTV_view.cs" />
+     <Compile Include="Assets\scripts\publicScripts\androidBackButton.cs" />
+     <Compile Include="Assets\scripts\publicScripts\backToMainPage.cs" />
+     <Compile Include="Assets\scripts\publicScripts\cameraZoonChange.cs" />
+     <Compile Include="Assets\scripts\publicScripts\comments\comments.cs" />
+     <Compile Include="Assets\scripts\publicScripts\comments\submitBtn.cs" />
+     <Compile Include="Assets\scripts\publicScripts\creditsButton.cs" />
+     <Compile Include="Assets\scripts\publicScripts\dogFightDust.cs" />
+     <Compile Include="Assets\scripts\publicScripts\dogFightDust02.cs" />
+     <Compile Include="Assets\scripts\publicScripts\endResult\endResResresh.cs" />
+     <Compile Include="Assets\scripts\publicScripts\endResult\endReslevelSelection.cs" />
+     <Compile Include="Assets\scripts\publicScripts\endResult\endResult.cs" />
+     <Compile Include="Assets\scripts\publicScripts\exitTutorial.cs" />
+     <Compile Include="Assets\scripts\publicScripts\faceBookButton.cs" />
+     <Compile Include="Assets\scripts\publicScripts\intro\exit.cs" />
+     <Compile Include="Assets\scripts\publicScripts\intro\intro.cs" />
+     <Compile Include="Assets\scripts\publicScripts\intro\page01.cs" />
+     <Compile Include="Assets\scripts\publicScripts\intro\page02.cs" />
+     <Compile Include="Assets\scripts\publicScripts\intro\page03.cs" />
+     <Compile Include="Assets\scripts\publicScripts\intro\page04.cs" />
+     <Compile Include="Assets\scripts\publicScripts\intro\screenSwap.cs" />
+     <Compile Include="Assets\scripts\publicScripts\introPlay.cs" />
+     <Compile Include="Assets\scripts\publicScripts\pauseGame\exitGame.cs" />
+     <Compile Include="Assets\scripts\publicScripts\pauseGame\levelSelection.cs" />
+     <Compile Include="Assets\scripts\publicScripts\pauseGame\mainMenu.cs" />
+     <Compile Include="Assets\scripts\publicScripts\pauseGame\pauseBarHorizontal.cs" />
+     <Compile Include="Assets\scripts\publicScripts\pauseGame\pauseGame.cs" />
+     <Compile Include="Assets\scripts\publicScripts\pauseGame\refreshGame.cs" />
+     <Compile Include="Assets\scripts\publicScripts\pigEvil.cs" />
+     <Compile Include="Assets\scripts\publicScripts\playButtonMainMenu.cs" />
+     <Compile Include="Assets\scripts\publicScripts\raccoonHint.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\addUpgrade.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\dummyChaMenuPos1.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\dummyChaMenuPos2.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\dummyChaMenuPos3.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\dummyChaMenuPos4.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\moneyToBuy.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\pauseBarScale.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\pauseEndScale.cs" />
+     <Compile Include="Assets\scripts\publicScripts\teamHiring\shelfScaleControl.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerM1_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerM2_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerM3_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerM4_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerM5_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerM6_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerR1_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerR2_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerR3_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerR4_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerR5_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerSB02_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerSB03_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerSB_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT10_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT1_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT2_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT3_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT4_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT5_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT6_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT7_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT8_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\timer_10seconds\timerT9_10seconds.cs" />
+     <Compile Include="Assets\scripts\publicScripts\tutorialCamera.cs" />
+     <Compile Include="Assets\scripts\publicScripts\upgradeButton.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\backIcon.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank01.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank02.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank03.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank04.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank05.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank06.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank07.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank08.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank09.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\bank10.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\levelSelectionReg01\levelSelection_Reg01.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\region01.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\regionSelection.cs" />
+     <Compile Include="Assets\scripts\regionSelection\region01\rigion1CHEAT.cs" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
